@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font: bolder 20px sans-serif;
 }
@@ -7,5 +12,61 @@ h2 {
 }
 
 header, section, footer, aside, nav, article {
-    border: 1px solid black;
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.agrupar {
+    background-color: #fab1a0;
+    border: 2px solid #e17055;
+    width: 960px;
+    margin: 15px auto;
+}
+
+.cabecera {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu {
+    background-color: #fd79a8;
+    border: 2px solid #e84393;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 2%;
+    width: 61%;
+    border: 2px solid black;
+    float: left;
+}
+
+.columna {
+    width: 31%;
+    border: 2px solid black;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 0;
+}
+
+.pie {
+    clear: both;
 }
